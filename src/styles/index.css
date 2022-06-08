@@ -10,3 +10,49 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.centered{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.Box{
+    background-color: black;
+    display: inline-block;
+    border-radius: 2%;
+}
+
+.stack-top{
+    z-index: 9;}
+.Pole{
+    background-color: rgb(142, 141, 141);
+    height: 800px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+
+}
+.Light{
+    margin: 20px;
+    padding: 100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.Red{
+    background-color: red;
+}
+.Yellow{
+    background-color: yellow;
+}
+.Green{
+    background-color: green;
+}
+
+.Glow{
+    box-shadow: 0px 0px 80px 15px rgb(255, 255, 145);
+}
